@@ -49,7 +49,7 @@ text-align: right;line-height: 175%;position: absolute;top:60px;right:0px;backgr
 .left-side{width:720px;float:left;}
 .right-side{width:275px;float:right;padding:0px 0px;}
 .c-main{min-width:1015px;max-width:1440px;margin:auto;height:810px;margin-top:80px;}
-.box{padding:20px;}
+.box{padding:20px;border-radius:5px}
 .main .box {background-color:#fff;}
 .left-side .box dt {font-size:14px;line-height: 14px;padding-bottom:5px;color:#f4655f;}
 .left-side .box dd {font-size:14px;line-height: 28px;}
