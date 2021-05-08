@@ -1,8 +1,10 @@
 ﻿body,div,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,dl,dt,dd,iframe {  margin:0; padding:0; border:0;}  
 
 html {	
-	font-size:14px;overflow-y: scroll;background-attachment:fixed;			
-	font-family:"Helvetica Neue","Helvetica","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Noto Sans CJK","Source Han Sans","WenQuanYi Micro Hei","Microsoft YaHei",sans-serif;
+	font-size:14px;color:#222;overflow-y: scroll;background-attachment:fixed;			
+	font-family:"Helvetica Neue",Arial,sans-serif,"Helvetica","PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Noto Sans CJK","Source Han Sans","WenQuanYi Micro Hei","Microsoft YaHei";
+	
+	
 }
 
 table {border-collapse: separate;border-spacing: 2px;height:100%;}
@@ -49,11 +51,11 @@ text-align: right;line-height: 175%;position: absolute;top:60px;right:0px;backgr
 .c-main{min-width:1015px;max-width:1440px;margin:auto;height:810px;margin-top:80px;}
 .box{padding:20px;}
 .main .box {background-color:#fff;}
-.left-side .box dt {font-size: 15px;line-height: 15px;padding-bottom:5px;color:#f4655f;}
-.left-side .box dd {font-size:15px;line-height: 30px;}
-.right-side .box {background-color:#fff; padding:20px;}
-.right-side .box dt{font-size:15px;line-height: 15px;padding-bottom:5px;color:#f4655f;}
-.right-side .box dd{font-size:15px;line-height: 30px;padding-left:10px;}
+.left-side .box dt {font-size:14px;line-height: 14px;padding-bottom:5px;color:#f4655f;}
+.left-side .box dd {font-size:14px;line-height: 28px;}
+.right-side .box {background-color:#fff; padding:20px;margin-bottom:20px;}
+.right-side .box dt{font-size:14px;line-height: 14px;padding-bottom:5px;color:#f4655f;}
+.right-side .box dd{font-size:14px;line-height: 28px;}
 /*****************footer********************/
 .m-footer {overflow:hidden;width: 100%;margin: 50px 0px 50px 0px;margin:auto;border-top: 1px solid #ddd;	}
 .m-footer span {font-size:12px;line-height:16px;}
