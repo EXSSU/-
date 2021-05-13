@@ -82,12 +82,12 @@ text-align: right;line-height: 175%;position: absolute;top:50px;right:0px;backgr
 
 @media screen and (max-width: 720px) {
 
-.wrap{width:100%;margin:0;height:50px;}
-.head{width:100%;margin:0;height:50px;}
-.m-body{width:100%;margin:0;margin-top: 68px;padding-bottom:0px;}
-.main{width:100%;margin:0;}
-.left-side{width:100%;margin:0;}
-.right-side{width:100%;margin:0;}
+.wrap{width:100%;min-width:275;margin:0;height:50px;}
+.head{width:100%;min-width:275;margin:0;height:50px;}
+.m-body{width:100%;min-width:275;margin:0;margin-top: 68px;padding-bottom:0px;}
+.main{width:100%;min-width:275;margin:0;}
+.left-side{width:100%;min-width:275;margin:0;}
+.right-side{width:100%;min-width:275;margin:0;}
 #name{font-weight:normal;}
 .h-logo{width:80px;height:50px;line-height:50px;margin:auto;padding:0 18px;}
 .h-left{padding: 0 18px;height:50px;line-height:50px;}
