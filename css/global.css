@@ -1,15 +1,15 @@
 ﻿body,div,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,dl,dt,dd,iframe {  margin:0; padding:0; border:0;}  
 
 html {	
-	font-size:14px;color:#222;overflow-y: scroll;background-attachment:fixed;			
-	font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
-	
+	font-size:14px;line-height:14px;color:#222;overflow-y: scroll;background-attachment:fixed;			
+	/*font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;*/
+	font-family:"Microsoft YaHei",Arial,sans-serif;
 }
 
 table {border-collapse: separate;border-spacing: 2px;height:100%;}
 header{display: block;height:100%;}
 div{display:block;}
-img { border: 0px;}
+img { margin:auto;text-align:center;vertical-align:middle;}
 a:link, a:visited ,a:hover, a:active{text-decoration: none;}
 body{	
 	display: block;
@@ -26,12 +26,14 @@ html,body{-webkit-text-size-adjust:none;}
   backface-visibility: hidden;border-color: #c74f4f;
 }
 
-.wrap{width:1035px;margin:auto;overflow:hidden;}
-.head{width:1015px; margin:0 10px;height:50px;line-height:50px;text-align:center;overflow:hidden;}
+.wrap{width:1035px;margin:auto;overflow:hidden;vertical-align: middle;}
+.head{width:1013px; margin:0 10px;height:50px;line-height:50px;text-align:center;overflow:hidden;}
 
-.h-logo{width:80px;float:left;padding:5px 25px 5px 0px;height:40px;line-height:40px;}
-.h-left{width:80px;height:50px;line-height:50px;float:left;text-align:center;}
-.h-right{width:120px;height:50px;line-height:50px;float:right;text-align:right;}
+.h-logo{width:80px;float:left;height:50px;line-height:50px;padding-right:18px;}
+#logo{padding:18px 0;display: block;vertical-align:middle;}
+#logo img{height:14px;}
+.h-left{padding: 0 18px;height:50px;line-height:50px;float:left;text-align:center;}
+.h-right{padding: 0 18px;height:50px;line-height:50px;float:right;text-align:right;}
 .h-left  a{font-size:18px;letter-spacing:1px;display: block;color:#3D3461;}
 .h-right a{font-size:18px;letter-spacing:1px;display: block;color:#3D3461;}
 .h-left  a:hover{color:#f4655f;font-weight:bold;}
@@ -51,18 +53,18 @@ text-align: right;line-height: 175%;position: absolute;top:50px;right:0px;backgr
 }
 
 /********************main*********************/
-.m-body{width:1035px;margin:auto;margin-top:70px;padding-bottom:20px;overflow:hidden;}
-.main{width:1015px; margin:0 10px;overflow:hidden;}
+.m-body{width:1035px;margin:auto;margin-top:68px;padding-bottom:18px;overflow:hidden;}
+.main{width:1013px; margin:0 10px;overflow:hidden;}
 .main .box {background-color:#fff;}
 
 .left-side{width:720px;float:left;}
 .right-side{width:275px;float:right;}
 
-.box{padding:20px;border-radius:5px;-moz-border-radius: 2px;-webkit-border-radius: 2px;clear:both;	position: relative;}
+.box{padding:18px;border-radius:5px;-moz-border-radius: 2px;-webkit-border-radius: 2px;clear:both;	position: relative;}
 
 .left-side .box dt {font-size:14px;line-height: 14px;padding-bottom:5px;color:#f4655f;}
 .left-side .box dd {font-size:14px;line-height: 24px;}
-.right-side .box {padding:20px;margin-bottom:20px;}
+.right-side .box {margin-bottom:18px;}
 .right-side .box dt{font-size:14px;line-height: 14px;padding-bottom:5px;color:#f4655f;}
 .right-side .box dd{font-size:14px;line-height: 24px;}
 
@@ -70,7 +72,7 @@ text-align: right;line-height: 175%;position: absolute;top:50px;right:0px;backgr
 /*****************footer********************/
 .m-footer {overflow:hidden;width: 100%;margin: auto;border-top: 1px solid #ddd;clear:both;}
 .m-footer span {font-size:12px;line-height:16px;}
-.copyright{text-align:center;color: #aaa;padding: 10px 0 10px 0;}
+.copyright{text-align:center;color: #aaa;}
 .imgs{	
 	-webkit-box-shadow: 1px 1px 3px 0.25px rgba(0, 0, 0, 0.25);-webkit-box-shadow: 1sp 1sp 3sp 0.25sp rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 1px 1px 3px 0.25px rgba(0, 0, 0, 0.25);-moz-box-shadow: 1sp 1sp 3sp 0.25sp rgba(0, 0, 0, 0.25);
@@ -84,12 +86,12 @@ text-align: right;line-height: 175%;position: absolute;top:50px;right:0px;backgr
 .head{width:100%;margin:0;height:50px;}
 .m-body{width:100%;margin:0;margin-top: 70px;padding-bottom:0px;}
 .main{width:100%;margin:0;}
-.left-side{width:100%;margin:0;padding-bottom:20px;}
+.left-side{width:100%;margin:0;}
 .right-side{width:100%;margin:0;}
 #name{font-weight:normal;}
-.h-logo{width:80px;height:50px;line-height:50px;padding:5px 12px 5px 20px;}
-.h-left{width:50px;height:50px;line-height:50px;}
-.h-right{width:50px;height:50px;line-height:50px;}
+.h-logo{width:80px;height:50px;line-height:50px;margin:auto;padding:0 18px;}
+.h-left{padding 0 18px;height:50px;line-height:50px;}
+.h-right{width:68px;height:50px;line-height:50px;}
 .h-left  a{font-size:16px;letter-spacing:0px;}
 .h-right a{font-size:16px;}
 .m-body img{max-width:100%;} 
