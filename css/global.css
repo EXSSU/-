@@ -1,9 +1,8 @@
 ﻿body,div,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,dl,dt,dd,iframe {  margin:0; padding:0; border:0;}  
 
 html {	
-	font-size:14px;line-height:14px;color:#222;overflow-y: scroll;background-attachment:fixed;			
-	font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Microsoft YaHei UI","Microsoft YaHei","Hiragino Sans GB",Arial,sans-serif;
-	
+	font: 12px/1.5 ; color:#111;overflow-y: scroll;background-attachment:fixed;	
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,"PingFang SC","Microsoft YaHei UI","Microsoft YaHei","Hiragino Sans GB",Arial,sans-serif;			
 }
 
 table {border-collapse: separate;border-spacing: 2px;height:100%;}
@@ -53,7 +52,7 @@ text-align: right;line-height: 175%;position: absolute;top:50px;right:0px;backgr
 
 /********************main*********************/
 .m-body{width:1013px;margin:auto;margin-top:68px;}
-.main{width:1013px; margin:auto;}
+.main{width:1013px; margin:auto;color: #333333;}
 .box{padding:18px;clear:both;position: relative;}
 
 .left-side{width:720px;float:left;margin-bottom:18px;background-color:#fff;border-radius:2px;}
